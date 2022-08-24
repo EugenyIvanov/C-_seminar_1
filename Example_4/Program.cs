@@ -5,6 +5,6 @@ int index = 1;
 while (index <= x)
 {
     if(index % 2 == 0)
-    Console.WriteLine(index);
+    Console.Write(index + ",");
     index++;
 }
