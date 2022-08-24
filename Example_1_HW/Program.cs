@@ -1,8 +1,8 @@
 ﻿Console.Clear();
 Console.Write("Введите первое число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
 int max = a;
 if (a > b)
 {
